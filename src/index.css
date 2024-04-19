@@ -1,0 +1,30 @@
+.navbar{
+  background-color: rgb(16, 15, 15) !important;;
+}
+.navbar a{
+  text-transform: capitalize;
+}
+
+a.active{
+  font-weight: bold;
+  text-decoration: none;
+ 
+}
+
+.navbar a:hover{
+  color: rgb(206, 52, 17);
+  font-weight: bold;
+}
+.header-img{
+  padding-top: 130px;
+}
+
+@mediA (max-width:991px) {
+  .navbar-brand{
+    font-size: 1.5rem !important;
+  }
+  a.active{
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
